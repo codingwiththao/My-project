@@ -1,0 +1,43 @@
+body {
+  width: 600px;
+  margin: 30px 20px;
+}
+
+h2, h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+img {
+  margin-bottom: -5px;
+}
+
+p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: gray;
+  margin-bottom: 30px;
+}
+
+a {
+  display: inline-block;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  
+  background-color: rgb(106, 196, 244);
+  color: azure;
+  border: 2px solid rgb(106, 196, 244);
+  border-radius: 3px;
+
+  padding: 0px 35px;
+  height: 50px;
+  line-height: 50px;
+
+  text-decoration: none;
+  transition: 0.5s all;
+}
+
+a:hover {
+  background-color: beige;
+  color: rgb(20, 141, 101);
+  border: beige;
+}

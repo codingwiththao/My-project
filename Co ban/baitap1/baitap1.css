@@ -1,0 +1,56 @@
+.baitap1 {
+  text-align: center;
+  width: 100%;
+  margin: 50px 20px;
+}
+
+img {
+  margin-bottom: -30px;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: normal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(75, 73, 73);
+  margin-bottom: 10px;
+}
+
+h2 strong {
+  font-weight: 900;
+  color: rgb(76, 180, 227);
+}
+
+p {
+  font-size: 17px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 20px;
+}
+
+.btn-list {
+  text-align: center;
+}
+
+.btn-list li {
+  display: inline;
+  margin: 50px 15px
+}
+
+.btn-list li a {
+  display: inline-block;
+
+  background-color: black;
+  color: azure;
+  border: 2px solid black;
+  border-radius: 3px;
+
+  padding: 14px 23px;
+  text-decoration: none;
+  transition: 0.5s all;
+}
+
+.btn-list li a:hover {
+  background-color: beige;
+  color:darkmagenta;
+}
+

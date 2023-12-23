@@ -1,0 +1,35 @@
+body {
+  background-image: url("baitap10.jpg");
+  background-repeat: no-repeat;
+
+  margin: 50px auto;
+  padding: 100px 0;
+  width: 100%;
+
+  text-align: center;
+  color: rgb(74, 183, 189);
+}
+
+ul li{
+  display: inline-block;
+  margin-right: 20px;
+  text-align: center;
+  width: 170px;
+}
+
+li i{
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+li .number{
+  font-size: 60px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 15px;
+}
+
+li .text {
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: -30px;
+}

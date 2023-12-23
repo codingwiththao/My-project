@@ -1,0 +1,48 @@
+body header {
+  position: relative;
+  margin: 20px;
+  width: 1000px;
+}
+
+img {
+  float: left;
+}
+
+nav {
+  float: left;
+  padding: 18px;
+}
+
+a {
+  text-decoration: none;
+  margin-right: 20px;
+
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  transition: 0.3s all;
+}
+
+a:hover {
+  color: rgb(58, 157, 255);
+}
+
+#btn {
+  position: relative;
+  top: 12px;
+  right: 0;
+}
+
+button {
+  background: none;
+  border: 2px solid lightgray;
+  border-radius: 4px;
+  padding: 8px 10px;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+button:hover {
+  background-color: black;
+  color: azure;
+  border: 2px dashed gray;
+}

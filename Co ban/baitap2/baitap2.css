@@ -1,0 +1,38 @@
+body {
+  background-image: url("baitap2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  width: 100%;
+  color: azure;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 13px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 30px;
+}
+
+a {
+  background-color: orangered;
+  color: white;
+  border: 2px solid orangered;
+  border-radius: 3px;
+  box-shadow: 3px 5px 8px rgb(104, 67, 67);
+
+  padding: 10px;
+  text-decoration: none;
+  transition: 0.5s all;
+}
+
+a:hover {
+  background-color: azure;
+  color: blueviolet;
+  border: 2px dashed orangered;
+}

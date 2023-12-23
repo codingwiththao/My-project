@@ -1,0 +1,40 @@
+body {
+  width: 1200px;
+  margin: 20px 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  position: relative;
+}
+
+h2 span {
+  background-color: white ;
+  padding: 0 22px;
+  position: relative;
+  z-index: 1;
+}
+
+h2:after {
+  background-color: rgb(225, 234, 234);
+
+  display: block;
+  content: "";
+
+  position: absolute;
+  left: 0;
+  top: 15px;
+
+  height: 5px;
+  width: 100%;
+}
+
+.photo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
