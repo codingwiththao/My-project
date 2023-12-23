@@ -1,0 +1,89 @@
+body {
+  background-color: rgb(254, 255, 228);
+  width: 1500px;
+  margin: 20px;
+}
+
+.header-part {
+  margin-bottom: 40px;
+}
+
+.header-part h1 {
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: -4px;
+  margin-bottom: 0px;
+}
+
+.header-part .main-discription {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: gray;
+  line-height: 25px;
+}
+
+.body-part {
+  margin-top: 50px;
+}
+
+.body-part .main-left {
+  float: left;
+  height: 900px;
+  width: 27%;
+  margin-right: 60px;
+}
+
+.body-part .big-image {
+  border: 4px solid black;
+  border-radius: 5px;
+  margin-bottom: -5px;
+}
+
+.body-part h2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: -2px;
+}
+
+.body-part .side-discription {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: gray;
+}
+
+.main-right {
+  list-style-type: none;
+}
+
+.main-right .list {
+  float: left;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed brown;
+  padding-bottom: 20px;
+  min-width: 1000px;
+}
+
+.main-right .list:last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+  padding-bottom: 20px;
+}
+
+.main-right .list .small-image {
+  float: left;
+  margin-right: 30px;
+  border: 4px solid black;
+  border-radius: 10px;
+}
+
+.main-right .list .list-discription {
+  margin-top: -10px;
+}
+
+.main-right .list h3 {
+  text-transform: uppercase;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: -3px;
+}
+.main-right .list .para {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: gray;
+  line-height: 25px;
+}

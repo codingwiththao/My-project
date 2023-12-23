@@ -1,0 +1,36 @@
+ul {
+  list-style-type: none;
+  background-color: rgb(254, 255, 228);
+  padding: 10px 20px;
+  margin: 20px;
+  width: 650px;
+}
+
+li {
+  margin-bottom: 30px;
+  border-bottom: 1px dashed brown;
+  padding-bottom: 20px;
+}
+
+li:last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+  padding-bottom: 30px;
+}
+
+li div img {
+  float: left;
+  margin-right: 30px;
+}
+
+li section h3{
+  text-transform: uppercase;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  letter-spacing: 1px;
+}
+
+li section p {
+  color: rgb(184, 182, 182);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
